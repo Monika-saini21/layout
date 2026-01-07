@@ -16,6 +16,7 @@ html,body { height:100%; }
 body{
   margin:0;
   font-family:var(--ff);
+  
   color: #e6eef6;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
@@ -222,7 +223,7 @@ img{
     
 }
 img{
-  width: 109%;
+  width: 104%;
   height: 50vh;
   object-fit: cover;
 }
@@ -285,7 +286,7 @@ img{
 }
 .hero{
   height: 500px;
- margin-bottom: 3rem;
+ margin-bottom: 2rem;
 }
 .footer{
   margin-top: 50px;
@@ -293,7 +294,7 @@ img{
 .header-title {
   position: absolute;
   top: 10%;
-  left: 10%;
+  left: 5%;
   transform: translateY(-50%);
   color: #fff;
   z-index: 5;
@@ -337,7 +338,7 @@ img{
   .contact div{
     width: 0%;
   }
-  .brand a{font-size:1rem;position: relative ; bottom: 16px;}
+  .brand a{font-size:1rem;position: relative ; right: 1rem; bottom: 16px;}
 }
 
 
@@ -629,7 +630,7 @@ textarea {
 
   /* IMAGE AFTER */
   .image-wrapper {
-    width: 100%;
+    width: 95%;
     margin: 12px auto;
     order: 2;                 /* ⬅️ baad me */
     display: flex;
