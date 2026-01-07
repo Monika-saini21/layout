@@ -79,14 +79,14 @@ font: bolder;
   justify-content:space-between;
   gap:var(--gap);
 }
-.brand a{ color:var(--accent); text-decoration:none; font-weight:700; font-size:2rem; }
+.brand a{ color:var(--accent); text-decoration:none; font-weight:700;  font-size:2rem; }
 .nav-list{ list-style:none; margin:0; padding:0; display:flex; gap:1rem; align-items:center; }
 .nav-list a{ color:var(--muted); text-decoration:none; padding:.4rem .6rem; border-radius:8px; font-weight:500; }
 .nav-list a:hover, .nav-list a:focus{ color:#3c1c57; background:var(--glass); outline:none; }
 
 /* Nav toggle */
 .nav-toggle{ background:none; border:0; display:inline-flex; align-items:center; gap:.5rem; padding:.3rem; cursor:pointer; }
-.hamburger{ display:block; width:22px; height:2px; background:#181717; position:relative; border-radius:2px; }
+.hamburger{ display:block; width:22px; height:2px; background:#181717; position:relative; bottom: 20px; border-radius:2px; }
 .hamburger::before, .hamburger::after{ content:""; position:absolute; left:0; width:22px; height:2px; background:#111010; border-radius:2px; }
 .hamburger::before{ top:-6px } .hamburger::after{ top:6px }
 
@@ -285,7 +285,7 @@ img{
 }
 .hero{
   height: 500px;
- 
+ margin-bottom: 3rem;
 }
 .footer{
   margin-top: 50px;
@@ -302,6 +302,7 @@ img{
 }
 .site-header{
   background: #ffffff;
+  height: 60px;
 }
 .header-line{
   font-size: 30px;
@@ -336,7 +337,7 @@ img{
   .contact div{
     width: 0%;
   }
-  .brand a{font-size:1rem; }
+  .brand a{font-size:1rem;position: relative ; bottom: 16px;}
 }
 
 
@@ -730,7 +731,7 @@ textarea {
 @media (max-width: 576px) {
   .product-section {
     padding: 30px 20px;
-     margin-top: 50px;
+     margin-top: 6rem;
      padding-top: 1px;
   }
 
